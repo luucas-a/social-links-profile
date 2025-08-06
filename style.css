@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+body {
+  font-size: 0.93rem;
+  background-color: var(--bg-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  max-width: 300px;
+  margin-bottom: 100px;
+  background-color: var(--bg-color-secundario);
+  padding: 30px 30px 10px 30px;
+  border-radius: 20px;
+}
+
+.card-img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-img img {
+  max-width: 60px;
+  max-height: 60px;
+  border-radius: 50%;
+}
+
+.card h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cidade {
+  font-size: 0.8rem;
+  color: var(--color-destaque);
+  margin-bottom: 25px;
+}
+
+.descricao {
+  font-size: 0.8rem;
+  color: var(--color-secundario);
+  margin-bottom: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 50px;
+  background-color: var(--bg-color-terciario);
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 0.93rem;
+}
+
+/*
+## Colors
+
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+*/
+
+:root {
+  --bg-color: #141414;
+  --bg-color-secundario: #1f1f1f;
+  --bg-color-terciario: #333333;
+  --color-destaque: #c5f82a;
+  --text-color: #ffffff;
+  --color-secundario: #adadad;
+}
